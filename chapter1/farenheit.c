@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* print Farenheit-celsius table
-   for fahr 0, 5220, 40, ..., 300.*/
+   for fahr 0, 20, 40, ..., 300.*/
 
 int main() {
   float fahr, celsius;
