@@ -1,0 +1,11 @@
+# Emacs lock files
+.#*
+
+# Emacs autosave files
+*~
+
+# Emacs backup files
+*#
+
+# Optional: Org-mode agenda and similar temp files
+.org-id-locations
