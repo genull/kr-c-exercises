@@ -9,3 +9,6 @@
 
 # Optional: Org-mode agenda and similar temp files
 .org-id-locations
+
+#scripts
+**/[^.]* 
