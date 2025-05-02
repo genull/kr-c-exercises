@@ -10,5 +10,8 @@
 # Optional: Org-mode agenda and similar temp files
 .org-id-locations
 
-#scripts
-**/[^.]* 
+# Ignore all files with no dot (no extension)
+**/[^.]*
+
+# But allow .c source files
+!**/*.c
