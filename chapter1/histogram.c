@@ -13,9 +13,6 @@ int main() {
   lengths[i] = 0;
   }
 
-
-
-
   //main loop: check for word separator and increase array element by one
   while ((c = getchar()) != EOF) {
     if (c == ' ' || c == '\t' || c == '\n'){
@@ -34,12 +31,11 @@ int main() {
     ++lengths[counter];
   }
 
-  
   //loop that writes the asterisk according to the value of each element on the array
   for (i = 1; i < MAX_LENGTH; i++) {
     printf("%2d characters: ", i);
     for (int j = 0; j < lengths[i]; j++)
       putchar('*');
     putchar('\n');
-  }  
+  }
 }
