@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX_LENGTH  10
+#define MAX_LENGTH 10
 
 int main() {
   int c, i, counter;
